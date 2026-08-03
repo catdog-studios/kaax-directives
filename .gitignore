@@ -1,0 +1,103 @@
+# ==========================================
+# Depencendias y Gestores de Paquetes
+# ==========================================
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Registros y Logs de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Salidas de Compilación y Bundlers (Build)
+# ==========================================
+# dist/
+dist-ssr/
+build/
+out/
+.output/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+.cache/
+.parcel-cache/
+.turbo/
+*.tsbuildinfo
+
+# ==========================================
+# Variables de Entorno y Secretos
+# ==========================================
+# Ignorar todos los archivos de entorno excepto el de ejemplo/plantilla
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!.env.template
+
+# ==========================================
+# Cobertura de Pruebas y Reportes (Testing)
+# ==========================================
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+.vitest/
+
+# ==========================================
+# Configuración de Editores y Sistemas Operativos
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthrough.db
+Desktop.ini
+
+# IDEs y Editores de código
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# Herramientas de Calidad de Código (Linters/Formatters)
+# ==========================================
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# ==========================================
+# Archivos Temporales y Descargas
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
